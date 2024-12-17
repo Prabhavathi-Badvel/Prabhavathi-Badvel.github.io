@@ -1,32 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <script src="https://kit.fontawesome.com/accd26a21f.js" crossorigin="anonymous"></script> <!-- icons -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="project.css">
+    <title>Portfolio - Prabhavathi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #0d1e31, #1a2a4f, #2a3c6d);
+            color: white;
+        }
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
-    <link rel="icon" type="image/x-icon" href="images/">
-    <title>Prabhavathi Portfolio</title>
+        .containers {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
+        nav.navbar {
+            padding: 10px 20px;
+        }
+
+        nav span a {
+            text-decoration: none;
+            color: #f5f5f5;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav span a:hover {
+            color: gold;
+        }
+
+        .introDiv {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hello {
+            min-height: 50vh;
+        }
+
+        h2 {
+            color: gold;
+            text-shadow: 1.5px 1.5px 1.5px white, 0 0 1em #000000, 0 0 0.4em #0d1e31;
+            font-family: Georgia, serif;
+        }
+
+        h6, p {
+            opacity: 0.9;
+        }
+
+        button {
+            border: 2px solid #f5f5f5;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #f5f5f5;
+            background: transparent;
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+
+        button:hover {
+            color: black;
+            background: gold;
+        }
+
+        .btn-outline-light {
+            border-color: gold;
+            color: gold;
+        }
+
+        .btn-outline-light:hover {
+            color: #f5f5f5;
+            background: #0d1e31;
+        }
+
+        .text-center p i {
+            font-size: 1.5rem;
+            color: #f5f5f5;
+        }
+
+        .text-center p span {
+            color: gold;
+        }
+
+        .introDiv3 a {
+            margin: 0 10px;
+        }
+
+        .introDiv3 button {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        .introDiv3 button:hover {
+            color: gold;
+        }
+    </style>
 </head>
-    
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-69J8BJKNCZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-69J8BJKNCZ');
-</script>
 
 <body>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-69J8BJKNCZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-69J8BJKNCZ');
+    </script>
+
+    <!-- Scroll Progress -->
     <div id="scroll-progress"></div>
 
     <!-- Navbar -->
