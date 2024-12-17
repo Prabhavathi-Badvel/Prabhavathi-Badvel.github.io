@@ -1,0 +1,99 @@
+.container1{
+
+    /* background-image: url("himalayas.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    font-style: italic;
+    color: white;
+    row-gap: 20%;
+    /* height: 600px;
+    overflow: scroll; */
+
+}
+
+.container1::-webkit-scrollbar{
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .container1 {
+      padding: 5%;
+    }
+    img{
+        height: 360px;
+    }
+}
+
+.flex-container {
+    
+    gap: 30px;
+    padding: 5% 0% 5% 0%;
+    margin-bottom: 10%;
+    border: 5px solid white;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container1 img{
+    width: 100%;
+    height: 250px;
+    /* border: 10px solid white; */
+    border-radius: 10px;
+    padding: 2px;
+
+    cursor: pointer;
+    /* box-shadow: 0px 0px 5px 5px rgb(145, 139, 139); */
+
+}
+
+.discrption{
+
+    /* background-color: rgba(20, 3, 3, 0.3); */
+    border-radius: 10px;
+    margin-bottom: 1%;
+    font-size: 13px; 
+}
+.discrption p{
+    text-align: left;
+
+}
+
+.discrption strong{
+    color:  #3d5875;
+}
+.discrption h5{
+    color: gold;
+}
+
+/* .discrption div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.discrption button{
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+    #projectDivReverse{
+      display:flex;
+      flex-direction: column-reverse;
+    }
+    
+}
+#line{
+    height: 0px;
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-between;
+}
+
+.headline {
+  display: inline-block;
+  position: relative;
+}
